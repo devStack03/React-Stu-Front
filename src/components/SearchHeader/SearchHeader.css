@@ -1,0 +1,87 @@
+.btnGroupView{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btnGroupView label{
+    min-width: 100%;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.btnGroupView:not(:first-child) label:not(:empty){
+    margin-top: 15px;
+}
+.btnGroupView .btn:empty{
+    display: none;
+}
+.btnGroupView .btn{
+    background-color: #ff5301 !important;
+    color: #fff !important;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    border: none;
+    margin: 0 3px;
+}
+.btnGroupView .btn.disable-button{
+    background-color: #444 !important;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.btnGroupView .btn:hover {
+    background-color: #444 !important;
+}
+.domainDenModal .modal-body{
+    min-height: 150px;
+}
+.domainDenModal .modal-header{
+    display: flex;
+    align-items: center;
+}
+.domainDenModal .modal-header h5{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: system-ui;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 32px);
+    justify-content: center;
+}
+.domainDenModal .modal-dialog{
+    max-width: 400px !important;
+}
+.domainDenModal .modal-header h5 font:not(:empty){
+    background-color: #019875 !important;
+    color: #fff !important;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    border: none;
+    margin-left: 8px;
+}
+.domainDenModal .modal-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.domainDenModal .btnControl {
+    border: none;
+    background-color: #ff5301;
+    color: #fff;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    padding: 4px 10px;
+}
+.btnGroupView .btn:hover {
+    background-color: #444 !important;
+}
+.searchbar {
+    font-family: 'Sui Generis'!important;
+}
+::placeholder {
+    font-family: 'Sui Generis'!important;
+}

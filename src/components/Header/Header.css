@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Sui Generis';
+    src: url("../../assets/fonts/sui-generis-rg.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+.header-bottom>div {
+    max-width: 650px !important;
+    margin: auto !important;
+}
+
+.nav-link {
+    font-size: 20px !important;
+}
+
+#basic-nav-dropdown {
+    font-family: 'Sui Generis'!important;
+}
+
+.navbar {
+    height: 120px !important;
+}
+
+.logoImage {
+    width: 210.58px !important;
+}
+
+.spring-screw-partner {
+    width: 1200px !important;
+    position: absolute !important;
+    height: 300px !important;
+    opacity: 0.2 !important;
+}
+
+.aspiring {
+    font-family: 'Sui Generis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.default-toggle .mobile_menu>a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px !important;
+    color: white !important;
+}
+
+.sidenav {
+    width: 280px !important;
+}
+
+.header-bottom.search-global .btn {
+    width: 300px;
+}
+
+.header-bottom.search-global>div {
+    max-width: 750px !important;
+}
