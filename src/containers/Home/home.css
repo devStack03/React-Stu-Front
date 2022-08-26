@@ -1,0 +1,372 @@
+.mobile_menu {
+  margin: 0 10px !important;
+  height: 50px !important;
+}
+
+ul.row-sec {
+  padding: 0px !important;
+}
+
+.mobile_menu a#two {
+  border-radius: 30px;
+}
+
+.skeletonleft {
+  position: absolute;
+  opacity: 0.1;
+  top: 126%;
+  height: 330vh;
+}
+
+.skeletonright {
+  position: absolute;
+  opacity: 0.1;
+  right: 0;
+  top: 126%;
+  height: 348vh;
+}
+
+.sponsored-headline {
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgb(234, 234, 234);
+}
+
+.find-partner p {
+  padding: 10px 9em;
+  font-size: 30px;
+  font-family: "poppins-semibold";
+  color: white;
+  padding-top: 30px;
+}
+
+.spring-flex-aspiring {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.spring-buildream-headline {
+  font-family: 'Sui Generis';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+.spring-buildream-role {
+  margin-top: 37px;
+}
+
+.spring-buildream-screw {
+  width: 728px !important;
+  position: absolute !important;
+  height: 168px !important;
+  opacity: 0.2 !important;
+}
+
+.spring-buildream-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+}
+
+.section-title {
+  font-size: 60px;
+  font-family: "Sui Generis";
+  color: white;
+  /* letter-spacing: 4px; */
+  line-height: 72px;
+  font-weight: 700;
+}
+
+.spring-sponsored-role {
+  margin-top: 83px;
+}
+
+.studLogo {
+  width: 895.66px !important;
+  height: 896.97px !important;
+}
+
+.row-sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col2 {
+  width: 14%;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.market-place-logon {
+  margin-top: 143.03px;
+}
+
+.spring-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 122px;
+}
+
+.spring-screw {
+  width: 1083px !important;
+  position: absolute !important;
+  height: 239px !important;
+  opacity: 0.2 !important;
+}
+
+.spring-sponsored-headline {
+  font-family: 'Sui Generis';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.table-outer {
+  position: relative;
+}
+
+table.custom-table,
+table.custom-table tr,
+table.custom-table td {
+  border: 2px solid #494949;
+  border-collapse: collapse;
+}
+
+table.custom-table tr:first-child {
+  background-color: #494949;
+  color: #fff;
+}
+
+a.btn-expand {
+  color: #494949;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+}
+
+a.btn-expand:hover {
+  color: #494949;
+  box-shadow: -1px 0px 8px -1px rgba(252, 252, 252, 1);
+  transform: translateY(1px);
+}
+
+@media only screen and (max-width: 991px) {
+  .find-partner p {
+    padding: 10px 12em;
+  }
+
+  .section-title {
+    font-size: 21px !important;
+  }
+
+  .col2 {
+    width: 24%;
+  }
+
+  .botton-icons .icon {
+    width: 12.09% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .studio-logo p {
+    text-align: center !important;
+  }
+
+  .section-title {
+    font-size: 50px;
+  }
+
+  .find-partner p {
+    padding: 0px 7em;
+  }
+
+  .botton-icons .icon {
+    width: 24.09% !important;
+  }
+
+  .studio-logo.content h4 {
+    font-size: 26px;
+  }
+
+  .col2 {
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .botton-icons .icon {
+    width: 32.09% !important;
+  }
+
+  .col2 {
+    width: 31%;
+  }
+
+  .section-title {
+    font-size: 21px;
+  }
+
+  .find-partner p {
+    padding: 0px 0em;
+  }
+
+  .row-sec {
+    padding: 0 0;
+  }
+}
+
+.box_price {
+  display: flex;
+  justify-content: space-around;
+}
+
+.domain_price {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .skeletonleft {
+    display: none !important;
+  }
+
+  .skeletonright {
+    display: none !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .col2 {
+    width: 50%;
+  }
+
+  .botton-icons .icon {
+    width: 46.09% !important;
+  }
+
+  .icon h5 {
+    font-size: 9px;
+  }
+
+  .market-place-logon {
+    margin-top: 90px
+  }
+
+  .section-title {
+    line-height: 1.6;
+    font-size: 21px !important;
+  }
+  .spring-sponsored-headline {
+    font-size: 30px;
+  }
+
+  .spring-flex {
+    margin-bottom: 0!important;
+  }
+
+  .spring-sponsored-role {
+    margin-top: 10px;
+  }
+
+  .find-partner p {
+    padding: 0!important;
+  }
+
+  .aspiring {
+    margin-top: 80px;
+  }
+  .spring-buildream-headline {
+    font-size: 25px;
+  }
+
+}
+@media (max-width: 768px) {
+  .col2 {
+    width: 50%;
+  }
+
+  .botton-icons .icon {
+    width: 46.09% !important;
+  }
+
+  .icon h5 {
+    font-size: 9px;
+  }
+
+  .market-place-logon {
+    margin-top: 90px
+  }
+
+  .section-title {
+    line-height: 1.6;
+  }
+
+  .spring-sponsored-headline {
+    font-size: 30px;
+  }
+
+  .spring-flex {
+    margin-bottom: 0!important;
+  }
+
+  .spring-sponsored-role {
+    margin-top: 10px;
+  }
+
+  .find-partner p {
+    padding: 0!important;
+  }
+
+  .aspiring {
+    margin-top: 80px;
+  }
+  .spring-buildream-headline {
+    font-size: 25px;
+  }
+
+}
+
+
+.videoTag {
+  width: 100%;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 700px;
+  background-color: black;
+}
+
+.imgTag {
+  width: 25% !important;
+  height: auto;
+  min-width: 100px !important;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}

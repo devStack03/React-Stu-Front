@@ -1,0 +1,158 @@
+.customGrid > .e-grid,
+.customGrid > .e-grid .e-toolbar,
+.customGrid > .e-grid .e-toolbar .e-toolbar-items,
+.customGrid > .e-grid .e-gridheader,
+.customGrid > .e-grid .e-gridheader .e-headercontent{
+    border: none !important;
+    background-color: transparent !important;
+}
+.customGrid > .e-grid .e-gridcontent table.e-table{
+    margin: 0 !important;
+}
+.customGrid > .e-grid .e-gridcontent table.e-table td,
+.customGrid > .e-grid .e-headercontent table.e-table th{
+    height: unset !important;
+    text-align: center;
+    text-align: center;
+    height: 40px !important;
+    padding: 0 10px !important;
+    font-family: system-ui;
+}
+.customGrid > .e-grid .e-headercontent table.e-table thead th{
+    background-color: rgba(0,0,0,0.03) !important;
+    padding: 0 !important;
+}
+.customGrid > .e-grid .e-headercontent table.e-table thead th .e-headercelldiv{
+    font-size: 13px !important;
+    font-weight: bold !important;
+    color: #212529;
+}
+.customGrid > .e-grid .e-gridcontent{
+    margin-top: -1px;
+}
+.customGrid > .e-grid .e-headercontent table.e-table th .e-sortfilterdiv{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.customGrid > .e-grid .e-headercontent table.e-table th .e-headercelldiv{
+    display: block;
+    padding: 0 14px 0 5px !important;
+    margin: 0;
+    text-align: center;
+}
+.customGrid > .e-grid .e-headercontent table.e-table th[aria-sort="none"] .e-headercelldiv{
+    padding: 0 5px !important;
+}
+.customGrid > .e-grid .e-gridpager{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: none;
+}
+.customGrid > .e-grid .e-gridpager .e-pagesizes{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.customGrid > .e-grid .e-gridpager .e-pagesizes .e-pagerconstant{
+    margin-left: 10px;
+}
+.customGrid > .e-grid .e-gridpager .e-pagesizes>*,
+.customGrid > .e-grid .e-gridpager .e-pagercontainer,
+.customGrid > .e-grid .e-gridpager .e-parentmsgbar{
+    margin: 0;
+    padding: 0;
+}
+.customGrid > .e-grid .e-gridpager .e-pagercontainer{
+    order: 3;
+    margin-left: auto;
+}
+.customGrid > .e-grid .e-gridpager .e-pagercontainer>*{
+    margin: 0;
+}
+.customGrid .e-input-group:not(.e-float-icon-left):not(.e-float-input)::before,
+.customGrid .e-input-group:not(.e-float-icon-left):not(.e-float-input)::after,
+.customGrid .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::before,
+.customGrid .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::after,
+.customGrid .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::before,
+.customGrid .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::after,
+.customGrid .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::before,
+.customGrid .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::after,
+.customGrid > .e-grid .e-pager .e-currentitem,
+.customGrid > .e-grid .e-pager .e-currentitem:hover{
+    background-color: #ff5301;
+}
+.filterControls .btn{
+    white-space: nowrap;
+    border-color: #ff5301;
+    background-color: #ff5301 !important;
+    color: #fff !important;
+    font-family: system-ui !important;
+    border-radius: 4px !important;
+}
+.customGrid > .e-grid .e-toolbar .e-toolbar-items .e-search,
+.customGrid > .e-grid .e-gridpager .e-pagesizes>.e-pagerdropdown{
+    border: 1px solid #aaa !important;
+    border-radius: 6px;
+    padding: 0 6px;
+}
+.customGrid > .e-grid .e-toolbar .e-toolbar-items .e-search:before,
+.customGrid > .e-grid .e-toolbar .e-toolbar-items .e-search:after{
+    display: none !important;
+}
+.customGrid > .e-grid .e-toolbar .e-toolbar-items .e-search input::-moz-selection {
+    background-color: #ff5301;
+}
+.customGrid > .e-grid .e-toolbar .e-toolbar-items .e-search input::selection {
+    background-color: #ff5301;
+}
+.customGrid > .e-grid .e-toolbar .e-toolbar-items .e-search{
+    width: 170px;
+}
+.table-control {
+    display: none;
+}
+.css-levciy-MuiTablePagination-displayedRows {
+    margin: 0!important;
+}
+.css-1xy1myn-MuiDataGrid-root .MuiDataGrid-iconSeparator {
+    color: rgb(68, 68, 68)!important;
+}
+.css-f3jnds-MuiDataGrid-columnHeaders {
+    background: rgb(68, 68, 68);
+    color: white!important;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{
+    background-color: white!important;
+    padding: 0!important;
+    margin: -4px!important;
+}
+
+.css-f3jnds-MuiDataGrid-columnHeaders {
+    min-height: 46px!important;
+    max-height: 56px!important;
+    line-height: 46px!important;
+}
+@media (max-width: 375px) {
+    .pagination-wrapper {
+        display: none;
+    }
+    .search-bar {
+        display: none;
+    }
+    .table-control {
+        display: block;
+        height: 371px;
+        text-align: center;
+    }
+}

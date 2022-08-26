@@ -1,0 +1,43 @@
+.stableView .stable-title{
+    height: 50px;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.stableView .stable-title img{
+    height: 20px;
+    width: auto;
+}
+.stableView .my-stable-lisiting .list-group-item{
+    padding: 9px 5px;
+    width: calc(100% / 8);
+    justify-content: center;
+}
+.stableView .my-stable-lisiting .list-group-item a{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.stableView .my-stable-lisiting .list-group-item a img{
+    width: 35px;
+    margin: 0;
+    margin-right: 10px;
+}
+.stableView .my-stable-lisiting .list-group-item a h5{
+    text-align: left;
+    font-size: 0.8vw;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: white;
+    font-family: "Sui Generis";
+}
+.stableView .my-stable-lisiting .list-group-item a h5 .badge-info{
+    position: absolute;
+    left: 28px;
+    right: auto;
+    top: 2px;
+    padding: 3px 5px;
+}

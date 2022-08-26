@@ -1,0 +1,67 @@
+.broker-pd-10 {
+    padding: 10px;
+}
+
+.dashboard {
+    text-align: center;
+    font-family: fantasy;
+}
+
+.usercounter {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.leftbar {
+    width: 100%;
+    /* height: 100%; */
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.mebcolor {
+    color: white;
+    border-bottom: 1px solid white;
+    margin-top: 10%;
+}
+
+.mb_list {
+    font-size: 17px;
+    color: white;
+    padding: 0.5vw 2vw;
+    text-align: right;
+    font-family: initial;
+}
+
+.mb_list:hover {
+    background-color: #343638;
+}
+
+.vd-list {
+    font-size: 17px;
+    color: white;
+    padding: 0.5vw 2vw;
+    text-align: center;
+    font-family: initial;
+}
+
+.vd-list:hover {
+    background-color: #343638;
+}
+
+thead[class*="ant-table-thead"] th {
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+.ant-table-pagination-right {
+    justify-content: center !important;
+}
+.mbsize {
+    font-size: 26px;
+    font-family: fantasy;
+}
+.mb_list {
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.leftbar {
+    width: 100%;
+    height: 75vh;
+    background: #212529;
+    overflow-x: hidden;
+    text-align: center;
+}
+.css-1xy1myn-MuiDataGrid-root {
+    height: 65vh!important;
+}
+.userHeader {
+    text-align: center;
+    font-family: fantasy;
+}
+#userlisthg {
+    height: 65vh;
+}
+.modal_logo {
+    display: flex;
+    justify-content: center;
+}
+#modal_logo {
+    width: 100px;
+    position: absolute;
+    top: -65px;
+}
+.css-1wnsr1i {
+    border: 1px solid #d34c07!important;
+    border-radius: 16px!important;
+}
+@media (max-width: 425px) {
+    .leftbar {
+        height: auto;
+    }
+    #userlisthg {
+        height: 78vh;
+    }
+    .css-1xy1myn-MuiDataGrid-root {
+        height: 72vh!important;
+        padding: 5px!important;
+    }
+}

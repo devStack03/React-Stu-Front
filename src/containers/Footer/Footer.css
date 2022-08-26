@@ -1,0 +1,22 @@
+.tagpro{
+    background-color: #ff5301;
+    color: #fff;
+    font-family: "poppins-regular";
+    /* position: absolute; */
+    /* left: 15px; */
+    margin-left: 13px;
+    float: left;
+    /* bottom: -22px; */
+    padding: 0 7px;
+    font-size: 15px;
+}
+
+.foo{
+    float: none;
+    /* background-color: black !important; */
+}
+
+.padd {
+    padding: 0 0 8px 0;
+    
+}

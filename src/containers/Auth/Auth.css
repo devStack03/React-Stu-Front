@@ -1,0 +1,369 @@
+*{box-sizing: border-box}
+
+.frag{
+    background-color: black;
+}
+
+.d1{
+    background-color: white;
+    padding: 50px 20em 50px 20em;
+}
+
+/*.dstart {*/
+/*    !*   display: flex; *!*/
+/*    position: relative;*/
+/*    border-radius: 25px;*/
+/*    border: 1px solid grey;*/
+/*    padding: 15px 0 0 0;*/
+/*    flex-direction: column;*/
+/*    font-size: 15px;*/
+/*    justify-content: center;*/
+/*}*/
+.fname {
+
+    padding: 5px 5px 5px 10px;
+
+    margin-left: 280px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width:25%;
+}
+
+.lname {
+    padding: 5px 5px 5px 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width:25%;
+}
+
+.pass{
+    width: 53.3%;
+    margin-left: 280px;
+    margin-top: 15px;
+    padding: 5px 5px 5px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.country{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    width: 53.3%;
+    margin-left: 280px;
+    margin-top: 15px;
+    padding: 5px 5px 5px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: gray;
+    background-image: url("../../assets/img/f-down.png");
+    background-repeat: no-repeat;
+    background-position:calc(100% - 20px) center;
+    background-size: 10px;
+}
+
+.foot{
+    display: flex;
+}
+
+.joinsearch {
+    margin-left: 400px;
+    margin-top: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 15px;
+    height: 35px;
+}
+
+.freelance{
+    margin-left: 1px;
+    margin-top: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+    height: 35px;
+}
+.buydom{
+    margin-left: 400px;
+    text-align: center;
+    width: 15.1%;
+    margin-top: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 15px;
+    height: 35px;
+}
+.selldom{
+    width: 15.8%;
+    text-align: center;
+    margin-left: 1px;
+    margin-top: 15px;
+    padding: 5px 25px 5px 25px;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+    height: 35px;
+}
+
+.iwant{
+    margin-top: 15px;
+    margin-left: 580px;
+}
+
+.joinaccount{
+    width: 54%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 280px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 25px;
+    background-color:  #ffee00;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.dj {
+    /*  display: flex;  */
+    position: relative;
+    border-radius: 25px;
+    border: 1px solid grey;
+    padding: 50px;
+    flex-direction: column;
+    font-size: 15px;
+    justify-content: center;
+    background-color: #f1f1f1;
+
+}
+
+
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+    /*width: 45%;*/
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 25px;
+    border-left: hidden;
+    /*margin-left: 350px;*/
+    font-size: 15px;
+display: flex;
+    /*margin-top: 25px;*/
+    color: blue;
+
+}
+.fb-sec {
+    background: #fff;
+    width: 30px;
+    border-radius: 40px;
+    padding: 5px 0 1px 0;
+    margin: 0 0 0 2px;
+  }
+
+.fa-fb{
+    color:blue;
+    float: left;
+    font-size: 33px;
+    font-weight: 700;
+}
+.fbdiv{
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+.apple {
+    /*width: 45%;*/
+
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top: 15px;
+    /*margin-left: 350px;*/
+
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    /* margin-top: 25px;*/
+
+}
+.fa-apple{
+   
+    font-size: 20px;
+    padding-top: 4px;
+    margin-left: 5px;
+}
+.apple-sec {
+    background: #fff;
+    border-radius: 100px;
+    padding: 0 7px 0 1px;
+    margin: 0 0 0 1px;
+  }
+.applediv{
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+}
+.google {
+    /*width: 45%;*/
+
+    border: 1px solid black;
+    border-radius: 25px;
+    border-left: none;
+
+    font-size: 15px;
+    margin-top: 15px;
+    /*margin-left: 350px;*/
+    /*margin-top: 25px; */
+    background-color: rgba(0, 0, 255, 0.664);
+    color: white;
+
+}
+.fa-google{
+    float: left;
+    width: 33px;
+}
+.googlediv{
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+.conbtn{
+    /*width: 45%;*/
+    padding: 10px 40px 10px 40px !important;
+    /*border: 1px solid black;*/
+    border-radius: 1px;
+    /* margin: auto;*/
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 25px;
+    /*margin-left: 350px;*/
+    background: #F75500!important;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.mailtext{
+    /*width: 45%;*/
+    padding: 8px;
+    /* margin: auto; */
+    margin-top: 15px;
+    /*margin-left: 350px;*/
+    /*border: 1px solid grey;*/
+    border-radius: 10px;
+    font-family: Arial, FontAwesome;
+}
+
+.header__center {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+    /*width: 45%;*/
+    /* margin: auto; */
+    margin: 15px 0px 15px 0px;
+    /*margin-left: 350px;*/
+    color: grey;
+}
+
+.header__center::before,
+.header__center::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: currentColor;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .d1 {
+        background-color: white;
+        padding: 50px 15em 50px 15em;
+      }
+}
+
+@media only screen and (max-width: 991px) {
+    .d1 {
+        background-color: white;
+        padding: 50px 10em 50px 10em;
+      }
+      
+      
+}
+
+@media only screen and (max-width: 767px) {
+
+    .sidenav{
+        top: 80px !important;
+    }
+    .d1 {
+        background-color: white;
+        padding: 20px 
+      }
+      .dj{
+        padding: 20px 
+      }
+      .studio-logo.content h4 {
+        text-align: center !important;
+        float: inherit !important;
+}
+.tagpro{
+    float: inherit !important;
+}
+.tag {
+    
+    position: inherit !important;
+    left: 0px !important;
+    bottom: 0px !important;
+    padding: 0 7px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+.fbdiv , .googlediv , .applediv{
+   
+    font-size: 12px;
+  }
+  .fa-google {
+    float: left;
+    width: 28px!important;
+  }
+  .navbar-toggler {
+    right: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+    .fbdiv , .googlediv , .applediv{
+       
+        font-size: 10px;
+      }
+      
+      .fa-google {
+        float: left;
+        width: 25px !important;
+      }
+    }

@@ -1,0 +1,140 @@
+.checkout-outer {
+    background: #f4f4f4;
+    padding: 20px;
+}
+.checkout-left table {
+    width: 100%;
+}
+h3.sponser-heading {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    font-weight: 600;
+}
+.checkout-left {
+    background: #fff;
+    padding: 15px;
+}
+.checkout-left table tr {
+    border-bottom: 1px solid #f4f4f4;
+}
+.checkout-left table th, .checkout-left table td {
+    padding: 10px 0;
+}
+.checkout-left table p{
+    margin: 5px 0 0;
+    color: #b9b8b8;
+}
+.checkout-left table p a {
+    color: #b9b8b8;
+    font-size: 14px;
+}
+.checkout-left h5 {
+    margin: 0;
+}
+.checkout-left table tr {
+    border-bottom: 1px solid #f4f4f4;
+}
+tr.table-last-row a {
+    border: 1px solid #ccc;
+    color: #585858;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 13px;
+}
+tr.table-last-row a svg {
+    margin: -5px 0 0;
+}
+.table-total-mobile,.table-total-right {
+    float: right;
+    font-size: 24px;
+    font-weight: 600;
+}
+.table-total-mobile{
+    display: none;
+}
+.total-price {
+    font-size: 24px;
+    font-weight: 600;
+}
+.checkout-subtotal-mobile {
+    display: none;
+}
+.checkout-right {
+    max-width: 90%;
+    float: right;
+}
+.payment-option {
+    background: #fff;
+    padding: 15px;
+}
+.payment-option p {
+    margin: 0 0 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #6a6a6a;
+}
+.payment-option input {
+    width: 100%;
+    background: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+    margin: 0 0 15px;
+    border-radius: 4px;
+}
+.payment-option button {
+    background: #ff5301;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 14px;
+}
+.checkout-outer h3 {
+    margin: 0 0 25px;
+}
+@media screen and (max-width: 767px) {
+    .checkout-left {
+        max-width: 100%;
+        float: none;
+    }
+    .checkout-right {
+        max-width: 100%;
+        float: none;
+    }
+
+    .checkout-left table th:first-child, .checkout-left table td:first-child {
+        text-align: start;
+    }
+    .checkout-left table th, .checkout-left table td {
+        text-align: center;
+    }
+    .checkout-subtotal {
+        display: none;
+    }
+    .checkout-subtotal-mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .checkout-left table td:first-child h5 {
+       font-size: 16px;
+    }
+    .checkout-left table th, .checkout-left table td {
+        text-align: center;
+    }
+    .total-price {
+        font-size: 20px;
+    }
+    .table-total-right {
+        display: none;
+    }
+    .table-total-mobile{
+        float: none;
+        display:block;
+        font-size: 20px;
+    }
+}
